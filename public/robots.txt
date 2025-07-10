@@ -1,0 +1,6 @@
+# Allow all web crawlers
+User-agent: *
+Allow: /
+
+# Sitemap location (update when sitemap is created)
+Sitemap: https://heisly.com/sitemap.xml 
