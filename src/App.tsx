@@ -122,7 +122,13 @@ function App() {
 
   const services = [
     {
-      icon: <Globe className="w-8 h-8" />,
+      icon: (
+        <img 
+          src="/Heisly LOGO.png" 
+          alt="Heisly Logo" 
+          className="w-8 h-8 object-contain" 
+        />
+      ),
       title: "Website Development",
       description: "Custom, responsive websites built with cutting-edge technology to drive your business forward.",
       features: ["Responsive Design", "Fast Loading", "SEO Optimized", "Mobile First"]
