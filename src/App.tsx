@@ -15,7 +15,8 @@ import {
   Target,
   Users,
   Award,
-  MessageSquare
+  MessageSquare,
+  Instagram
 } from 'lucide-react';
 
 function App() {
@@ -512,6 +513,18 @@ function App() {
                   <p className="text-gray-400">We typically respond within 2 hours</p>
                 </div>
               </div>
+
+              <div className="flex items-center space-x-4">
+                <div className="w-12 h-12 bg-yellow-400 rounded-full flex items-center justify-center">
+                  <Instagram className="w-6 h-6 text-black" />
+                </div>
+                <div>
+                  <h3 className="text-xl font-semibold mb-1">Instagram</h3>
+                  <a href="https://www.instagram.com/heisly.company/" target="_blank" rel="noopener noreferrer" className="text-yellow-400 hover:text-yellow-300 transition-colors duration-300">
+                    @heisly.company
+                  </a>
+                </div>
+              </div>
             </div>
 
             <div className="bg-black p-8 rounded-2xl border border-gray-800">
@@ -612,6 +625,9 @@ function App() {
                 </a>
                 <a href="mailto:info@heisly.company" className="text-gray-400 hover:text-yellow-400 transition-colors duration-300" aria-label="Email">
                   <Mail className="w-5 h-5" />
+                </a>
+                <a href="https://www.instagram.com/heisly.company/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-yellow-400 transition-colors duration-300" aria-label="Instagram">
+                  <Instagram className="w-5 h-5" />
                 </a>
               </div>
             </div>
